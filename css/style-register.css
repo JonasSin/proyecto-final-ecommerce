@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-image: url("../img/mother-board.jpg");
+    background-size: cover;
+
+}
+
+.box-register {
+    width: 330px;
+    height: 510px;
+    background: #000;
+    color: #f93;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 70px 30px;
+}
+
+.box-register .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.box-register h1 {
+    color: #f16;
+}
+
+.box-register .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.box-register h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.box-register label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+
+}
+
+.box-register input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box-register input[type="text"],
+.box-register input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.box-register input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.box-register a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.box-register a:hover {
+    color: #fff;
+}

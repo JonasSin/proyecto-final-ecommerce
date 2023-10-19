@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register e-commerce</title>
+        <link rel="stylesheet" href="css/style-register.css">
+    </head>
+
+    <body>
+        <div class="box-register">
+            <img src="img/logo.jpg" class="avatar" alt="logo-login">
+            <h1>REGISTRARSE</h1>
+            <form method="post">
+                <!-- Nombre y Apellido-->
+                <label for="nombre">Tu nombre</label>
+                <input id="nombre" type="text" placeholder="Nombre y Apellido" name="user" require>
+
+                <!-- Email -->
+                <label for="correo">Correo electronico</label>
+                <input type="text" name="email" id="correo" required>
+
+                <!-- contraseña-->
+                <label for="passwd">contraseña</label>
+                <input type="password" id="passwd" name="contraseña" placeholder="Como minimo 6 caracteres" required>
+
+                <label for="passwd">Vuelva a escribir la contraseña</label>
+                <input type="password" id="passwd" name="contraseña" required>
+
+                <input type="submit" value="Continuar" name="btningresar">
+
+            </form>
+        </div>
+    </body>
+</html>
